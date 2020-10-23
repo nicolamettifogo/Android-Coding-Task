@@ -1,9 +1,8 @@
 Android-Coding-Task
 
-TODO:
+**THINGS TO BE DONE:**
 
-
-In PetRepository.kt, There are two json files urls pointing to my respository that you have to replace with your repository urls.
+In **PetRepository.kt**, There are two json files urls pointing to my respository that you have to replace with your repository urls.
 
 e.g:
 
