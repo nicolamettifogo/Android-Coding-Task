@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android-Coding-Task</string>
+    <!-- button text-->
+    <string name="chat">Chat</string>
+    <string name="call">Call</string>
+    <!-- labels and titles -->
+    <string name="label_office_hours">Office Hours:</string>
+    <string name="pet_info_title">Pet Info</string>
+    <!-- messages -->
+    <string name="within_work_hours_message">Thank you for getting in touch with us. We’ll get back to you as soon as possible</string>
+    <string name="outside_work_hours_message">Work hours has ended. Please contact us again on the next work day</string>
+    <string name="something_went_message">Something went wrong!</string>
+    <!-- content descriptions -->
+    <string name="content_desc_pet_photo">Pet Photo</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/petFragment">
+
+    <fragment
+        android:id="@+id/petFragment"
+        android:name="com.android.codingtask.view.pet.PetFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/pet_fragment">
+        <action
+            android:id="@+id/to_pet_info"
+            app:destination="@id/petInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/petInfoFragment"
+        android:name="com.android.codingtask.view.petinfo.PetInfoFragment"
+        android:label="{title}"
+        tools:layout="@layout/pet_info_fragment">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="content_utl"
+            app:argType="string" />
+    </fragment>
+</navigation>
